@@ -1,0 +1,80 @@
+body{
+  margin:0;
+  padding: 0;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: serif;
+  background-image: url("back_img.jpg");
+  background-repeat: no-repeat;
+}
+div#wrapper{
+width:80%;
+margin: 0 auto;
+background-color: rgba(255,255,255, 0.2);
+-webkit-box-shadow: 6px 11px 20px 0px rgba(0,0,0,0.49);
+box-shadow: 6px 11px 20px 0px rgba(0,0,0,0.49);
+}
+header{
+  padding: 20px 0;
+  border-top: 4px solid #000;
+}
+header .logo_area{
+  width:20%;
+  margin: 0 auto;
+}
+header img{width:100%;}
+header h1{
+  font-family: serif;
+  text-align: center;
+}
+nav{
+  padding: 0;
+  margin: 0;
+}
+nav ul{
+  margin:0;
+  padding: 10px 0;
+}
+nav li:first-child{
+  padding-left:;
+}
+nav ul li{
+  display: inline;
+  padding-left: 5%;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+  margin: 5px;
+}
+nav ul li a{
+  text-decoration: none;
+  color:#000;
+  padding:5px;
+}
+nav ul li a:hover{
+  background-color: #fff;
+  border-radius: 7px;
+}
+main{margin-top: 20px;}
+main .tree_describe{margin: 1%;}
+main .tree_describe p::first-letter{font-size: 30px;}
+main .tree_describe a{text-decoration: none;}
+main img{width: 100%;}
+main h2{color:#fff;}
+main .float{float: left;}
+main .identification{
+  width:29.3%;
+   padding: 1%;
+   margin:1%;
+   border-radius: 3px;
+ }
+main .temperature{ background-color: #000;}
+main .measurement{ background-color: #000;}
+main .direction{ background-color: #000;}
+footer{
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+}
+.clearleft{clear: left;}
